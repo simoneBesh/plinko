@@ -20,7 +20,8 @@ class particle {
           translate(pos.x, pos.y);
           rotate(this.body.angle);
           ellipseMode(CENTER);
-          fill("pink");
+          fill(this.color);
+          ellipse(0, 0, this.r, this.r);
           //strokeWeight(4);
           //stroke("white");
           //image(this.image, 0, 0, this.r*2, this.r*2);
